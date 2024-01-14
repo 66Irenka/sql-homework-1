@@ -1,5 +1,3 @@
-CREATE EXTENSION IF NOT EXISTS "pgcrypto";
-
 --create the table
 CREATE TABLE address_book (
     id UUID PRIMARY KEY,
